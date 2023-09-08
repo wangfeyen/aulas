@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "aulas",
+  "version": "1.0.0",
+  "description": "Imbutir arquivo no node",
+  "main": "busca.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "aulas"
+  },
+  "keywords": [
+    "notas"
+  ]
 }
