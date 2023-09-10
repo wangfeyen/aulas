@@ -14,18 +14,23 @@ function Banco(conta,saldo,tipo_de_conta,agencia){
     this.tipo_de_conta=tipo_de_conta;
     this.agencia=agencia;
     this.buscar_saldo=function(){
-        console.log(this.saldo);
+        console.log(`Seu saldo é de ${this.saldo} reais`);
     }
     this.deposito=function(valor){
+        console.log()
         this.saldo += valor;
+        console.log(`Você fez o depósito de ${valor} reais`)
         this.buscar_saldo()
     }
     this.saque=function(valor){
+        console.log()
         this.saldo -= valor;
+        console.log(`Você fez um saque de ${valor} reais`)
         this.buscar_saldo()
     }
     this.numero_da_conta=function(){
-        console.log(this.conta)
+        console.log()
+        console.log(`O número da sua conta é: ${this.conta}`)
     }
 }
 const banco1=new Banco(123456,10,"poupança",1011);
